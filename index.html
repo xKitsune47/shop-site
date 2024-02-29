@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+        <title>shop</title>
+    </head>
+    <body>
+        <section class="header">
+            <div class="hdr">
+                <div class="optn">randomShop</div>
+                <div class="optn">Products</div>
+                <div class="optn">Cart</div>
+                <div class="optn">Help</div>
+                <div class="optn">Account</div>
+            </div>
+        </section>
+        <section class="main">
+            <div class="filter">
+                <form>
+                    <input
+                        type="text"
+                        class="searchProduct"
+                        placeholder="Search"
+                    />
+                </form>
+                <form>
+                    <label for="priceSort">Sort</label><br />
+                    <select class="priceSort">
+                        <option selected disabled>Default</option>
+                        <option value="ascending">Price ⬆</option>
+                        <option value="descending">Price ⬇</option>
+                    </select>
+                </form>
+                <form>
+                    <label for="priceRange">Price</label><br />
+                    <input
+                        type="number"
+                        class="priceRange"
+                        step="0.01"
+                        placeholder="Min"
+                    />-<input
+                        type="number"
+                        class="priceRange"
+                        step="0.01"
+                        placeholder="Max"
+                    />
+                </form>
+            </div>
+            <div class="content"></div>
+        </section>
+        <section class="footer"></section>
+    </body>
+</html>
