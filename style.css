@@ -24,31 +24,30 @@ a {
     a:visited {
         color: #f7f4ea;
     }
-}
 
-.hdr {
-    color: #f7f4ea;
-    width: 70%;
-    max-height: 7vh;
-    min-height: 7vh;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 2fr 1fr 1fr;
-    gap: 0px;
-    height: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-}
+    .hdr {
+        color: #f7f4ea;
+        width: 70%;
+        min-height: 4.375rem;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 0px;
+        height: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
 
-.optn {
-    display: grid;
-    align-items: center;
-}
+    .optn {
+        display: grid;
+        align-items: center;
+    }
 
-.optn:hover {
-    width: 100%;
-    height: inherit;
-    background-color: #7b8e7d;
+    .optn:hover {
+        width: 100%;
+        height: inherit;
+        background-color: #7b8e7d;
+    }
 }
 
 .break {
@@ -57,13 +56,60 @@ a {
 
 #main {
     width: 70%;
-    height: 100vh;
+    min-height: fit-content;
+    color: #454238;
+
     .bckg-img {
         width: 100%;
-        height: 30%;
-        opacity: 0.5;
+        height: 20rem;
+        opacity: 0.3;
         object-fit: cover;
-        object-position: 0 64%;
+        object-position: 0 68.5%;
+    }
+
+    .txtOvrImg {
+        width: inherit;
+        text-align: center;
+        position: absolute;
+        top: 20%;
+        font-size: 4rem;
+    }
+
+    .shopDescription {
+        margin-top: -0.25rem;
+        font-size: 1.5rem;
+        text-align: center;
+        background-color: #899e8b;
+        padding: 3rem;
+        span {
+            width: 80%;
+        }
+    }
+
+    .opnngHrs {
+        text-align: center;
+        padding: 5rem;
+        font-size: 1.5rem;
+    }
+
+    .location {
+        padding: 3rem;
+        font-size: 1.5rem;
+        background-color: #899e8b;
+        text-align: center;
+        width: 100%;
+        iframe {
+            width: 70%;
+            height: 20rem;
+        }
+    }
+
+    .reviews {
+        padding: 3rem;
+        font-size: 1.5rem;
+        h2 {
+            text-align: center;
+        }
     }
 }
 
