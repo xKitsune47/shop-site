@@ -13,49 +13,17 @@
         <title>shop</title>
     </head>
     <body>
-        <section class="header">
+        <section id="header">
             <div class="hdr">
-                <div class="optn">randomShop</div>
-                <div class="optn">Products</div>
-                <div class="optn">Cart</div>
-                <div class="optn">Help</div>
-                <div class="optn">Account</div>
+                <div class="optn"><a href="#">randomShop</a></div>
+                <div class="optn"><a href="#location">Location</a></div>
+                <div class="optn"><a href="#footer">Contact Us</a></div>
             </div>
         </section>
-        <section class="main">
-            <div class="filter">
-                <form>
-                    <input
-                        type="text"
-                        class="searchProduct"
-                        placeholder="Search"
-                    />
-                </form>
-                <form>
-                    <label for="priceSort">Sort</label><br />
-                    <select class="priceSort">
-                        <option selected disabled>Default</option>
-                        <option value="ascending">Price ⬆</option>
-                        <option value="descending">Price ⬇</option>
-                    </select>
-                </form>
-                <form>
-                    <label for="priceRange">Price</label><br />
-                    <input
-                        type="number"
-                        class="priceRange"
-                        step="0.01"
-                        placeholder="Min"
-                    />-<input
-                        type="number"
-                        class="priceRange"
-                        step="0.01"
-                        placeholder="Max"
-                    />
-                </form>
-            </div>
-            <div class="content"></div>
+        <section class="break"></section>
+        <section id="main">
+            <img src="shop-exposition.png" class="bckg-img" />
         </section>
-        <section class="footer"></section>
+        <section id="footer"></section>
     </body>
 </html>
